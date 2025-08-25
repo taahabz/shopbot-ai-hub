@@ -1,73 +1,44 @@
-# Welcome to your Lovable project
+# 🛍️ ShopBot AI Hub
 
-## Project info
+**ShopBot AI Hub** is an extensible and open-source AI chatbot framework designed specifically for e-commerce. It provides a robust foundation for creating intelligent conversational assistants that can enhance the online shopping experience. Leveraging the power of modern large language models, ShopBot AI Hub allows developers to build, customize, and deploy AI agents that handle customer inquiries, offer personalized product recommendations, and automate support tasks.
 
-**URL**: https://lovable.dev/projects/7f96e574-2f69-4cda-ad94-661df49cfbab
+---
 
-## How can I edit this code?
+## 🚀 Key Features
+- **Modular Architecture**: Easily integrate new AI models, services, and e-commerce platforms.  
+- **Scalable**: Handles high volumes of customer interactions for businesses of all sizes.  
+- **Customizable**: Adjust chatbot personality, flows, and responses to match your brand.  
+- **Open Source**: Community-driven with open contributions and collaborative development.  
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## 💻 Getting Started
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/7f96e574-2f69-4cda-ad94-661df49cfbab) and start prompting.
+### Prerequisites
+- [Node.js](https://nodejs.org/) (LTS version recommended)  
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)  
 
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+### Installation
+```bash
+git clone https://github.com/taahabz/shopbot-ai-hub.git
+cd shopbot-ai-hub
+npm install
 ```
 
-**Edit a file directly in GitHub**
+### Configuration
+Create a `.env` file based on `.env.example` and set your environment variables (API keys, database credentials, etc.).
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### Run the Application
+```bash
+npm start
+```
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 🤝 Contributing
+We welcome and appreciate contributions from the community! If you'd like to help improve this project, please check out the **CONTRIBUTING.md** file for guidelines.
 
-## What technologies are used for this project?
+---
 
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/7f96e574-2f69-4cda-ad94-661df49cfbab) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+## 📄 License
+This project is licensed under **[Your License Here]** – see the **LICENSE** file for details.
