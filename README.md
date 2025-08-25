@@ -41,4 +41,4 @@ We welcome and appreciate contributions from the community! If you'd like to hel
 ---
 
 ## 📄 License
-This project is licensed under **[Your License Here]** – see the **LICENSE** file for details.
+This project is licensed under MIT LICENSE.
